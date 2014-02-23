@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigIntegerMath", "BigIntege
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigIntegerMath.Test", "BigIntegerMath.Test\BigIntegerMath.Test.csproj", "{C1A30786-6968-45CD-BB3B-CE33AFAF3D31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigIntegerMath.Console", "BigIntegerMath.Console\BigIntegerMath.Console.csproj", "{583A0067-63A4-4C08-8F12-71EB40C3D5EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C1A30786-6968-45CD-BB3B-CE33AFAF3D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A30786-6968-45CD-BB3B-CE33AFAF3D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A30786-6968-45CD-BB3B-CE33AFAF3D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583A0067-63A4-4C08-8F12-71EB40C3D5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583A0067-63A4-4C08-8F12-71EB40C3D5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583A0067-63A4-4C08-8F12-71EB40C3D5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583A0067-63A4-4C08-8F12-71EB40C3D5EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
