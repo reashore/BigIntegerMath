@@ -189,8 +189,7 @@ namespace BigIntegerMath.Test
             Assert.AreEqual(one, result1);
             Assert.AreEqual(one, result2);
         }
-
-
+        
         //[Test]
         [Conditional("DEBUG")]
         public void DebugFibonacci()
@@ -205,6 +204,5 @@ namespace BigIntegerMath.Test
                 Debug.WriteLine(message);
             }
         }
-
-    }
+        }
 }
