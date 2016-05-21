@@ -67,14 +67,9 @@ namespace BigIntegerMath
                 throw new ArgumentException("Argument must be greater than or equal to 0");
             }
 
-            if (n == 0)
+            if (n < 2)
             {
-                return 0;
-            }
-
-            if (n == 1)
-            {
-                return 1;
+                return n;
             }
 
             return Fibonacci0(n - 1) + Fibonacci0(n - 2);
@@ -87,14 +82,9 @@ namespace BigIntegerMath
                 throw new ArgumentException("Argument must be greater than or equal to 0");
             }
 
-            if (n == 0)
+            if (n < 2)
             {
-                return 0;
-            }
-
-            if (n == 1)
-            {
-                return 1;
+                return n;
             }
 
             return Fibonacci1(n - 1) + Fibonacci1(n - 2);
@@ -107,14 +97,9 @@ namespace BigIntegerMath
                 throw new ArgumentException("Argument must be greater than or equal to 0");
             }
 
-            if (n == 0)
+            if (n < 2)
             {
-                return 0;
-            }
-
-            if (n == 1)
-            {
-                return 1;
+                return n;
             }
 
             BigInteger previousFibonacci = 1;
