@@ -41,36 +41,24 @@ namespace BigIntegerMath.Test
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFactorial0OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            int result = BigIntegerMathLib.Factorial0(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Factorial0(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFactorial1OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            BigInteger result = BigIntegerMathLib.Factorial1(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Factorial1(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFactorial2OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            BigInteger result = BigIntegerMathLib.Factorial2(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Factorial2(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
@@ -132,36 +120,24 @@ namespace BigIntegerMath.Test
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFibonacci1OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            int result = BigIntegerMathLib.Fibonacci0(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Fibonacci0(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFibonacci11OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            BigInteger result = BigIntegerMathLib.Fibonacci1(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Fibonacci1(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestFibonacci2OfNegativeNumberThrowsArgumentException()
         {
-            // act
-            BigInteger result = BigIntegerMathLib.Fibonacci2(-1);
-
             // assert
-            // ArgumentException thrown
+            Assert.That(() => BigIntegerMathLib.Fibonacci2(-1), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
